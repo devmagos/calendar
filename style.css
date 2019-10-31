@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    background-color: gray;;    
+    color: #fff;
+}
+
+.container1 {
+    width: 500px;
+    border: 10px solid aqua;
+    background-color: aqua;
+    margin: 115px auto;
+}
+
+.container{
+    display: grid;
+    grid-gap: 15px;
+    height: 300px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    background-color: aqua;
+    color: #000;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    transition: all 2s;
+    padding-bottom: 15px;
+}
+
+.item {
+    background-color: yellow;
+}
+
+.item1, .item8, .item15, .item21, .item26 {
+    background-color: powderblue;
+}
+
+.item20 {
+    grid-column: span 2;
+    grid-row: span 2;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 110px;
+    
+}
+h1 {
+    font-family: cursive;
+    font-weight: 3em;
+    font-size: 1.5em;
+    font-style: italic;
+    color: darkcyan;
+    text-align: center;
+    border-bottom: 5px solid aqua;
+}
+
